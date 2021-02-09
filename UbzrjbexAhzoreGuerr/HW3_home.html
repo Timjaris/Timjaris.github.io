@@ -1,1 +1,253 @@
+<!DOCTYPE html>
 
+<html>
+  <style type="text/css">
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        margin:0;
+    }
+
+    div.title{
+      text-align: center;
+      width: 920px;
+      color: #00007D;
+      font: 
+    }
+
+    div.navbar{
+      left: 0px;
+    }
+
+    ul {
+      list-style-type: none;
+      width: 100%;
+      overflow: hidden;
+      background-color: #FEEAD8;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      padding: 8px;
+      font-size: 18px;
+    }
+
+    .parallax {
+      background-image: url("Restaurant.jpeg");
+      min-height: 370px; 
+      width: 840px;
+      margin-left: 40px;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    div.enjoy{
+      text-align: center;
+      width: 920px;
+      top: 180px;
+      left: 50px;
+      position:absolute;
+      font-size: 50px;
+      color: #FFF9DE;
+      font-family: 'Old Standard TT', serif;
+    }
+
+    button{
+      position: absolute;
+      top: 310px;
+      left: 600px;
+      padding: 5px 15px;
+    }
+
+    h2{
+      position: absolute;
+      text-align: center;
+      width: 358px;
+      top: 500px;
+      left: 270px;
+      text-decoration:underline;
+      border-bottom: 2px solid  #641E59;
+      color: #641E59;
+      font-family: 'Yusei Magic', sans-serif;
+    }
+
+    h3{
+      color: #3D65B5;
+    }
+
+    /*This would probably be more elegant as a table. Eh.*/
+    /*Or as hierarchical divs. Eehh.*/
+    div.italy_pic{
+      position: absolute;
+      top: 600px;
+      left: 40px;
+    }
+
+    div.italy_desc{
+      position: absolute;
+      width: 300px;
+      top: 700px;
+      left: 580px;
+    }
+
+    div.india_desc{
+      position: absolute;
+      width: 250px;
+      top: 1080px;
+      left: 40px;
+    }
+
+    div.india_pic{
+      position: absolute;
+      top: 980px;
+      left: 460px;
+    }
+
+    div.japan_pic{
+      position: absolute;
+      top: 1360px;
+      left: 40px;
+    }
+
+    div.japan_desc{
+      position: absolute;
+      width: 300px;
+      top: 1450px;
+      left: 580px;
+    }
+
+    div.dessert_desc{
+      position: absolute;
+      width: 250px;
+      top: 1840px;
+      left: 40px;
+    }
+
+    div.dessert_pic{
+      position: absolute;
+      top: 1750px;
+      left: 460px;
+    }
+  </style>
+
+  <head>
+    <title>Home | Menu</title>
+    <a id="home"></a>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1><b>Trojan Café</b></h1>
+    </div>
+
+    <div class="navbar">
+      <ul>
+        <li><a href="HW3_home.html" style="text-decoration: none;">Home</a></li>
+        <li><a href="#italian" style="text-decoration: none;">Italian</a></li>
+        <li><a href="#indian" style="text-decoration: none;">Indian</a></li>
+        <li><a href="#japanese" style="text-decoration: none;">Japanese</a></li>
+        <li><a href="#desserts" style="text-decoration: none;">Desserts</a></li>
+        <li><a href="index.html" target="_blank" style="text-decoration: none;">About</a></li>
+        <li><a href="index.html" target="_blank" style="text-decoration: none;">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="enjoy"><p><b>Enjoy the Scenic View!!</b></p></div>
+
+    <button type="button" >Book Your Reservation</button>
+
+    <div class="parallax"></div>
+    <h2>Explore Our Delicious Cuisines</h2>
+
+    <div class="italy_pic">
+      <a id="italian">
+      <img src="Italian Cuisine.jpg" style="border:10px solid#FFE5E2"
+      width="400px" height = "320px">
+      </a>
+    </div>
+    <div class="italy_desc">
+      <h3>Italy's Finest:</h3>
+      <p>From our Lasagna to our Protein Penne, we have delicious options 
+        for every taste!</p>
+    </div>
+
+    <div class="india_desc">
+      
+      <h3>India's Flavors:</h3>
+      <p>Our dishes are blended with masterful savory spices</p>
+    </div>
+
+    <div class="india_pic">
+      <a id="indian">
+      <img src="Indian Cuisine.jpg" style="border:10px solid #9ECADB"
+      width="400px" height = "320px">
+      </a>
+    </div>
+
+    <div class="japan_pic">
+      <a id="japanese">
+      <img src="Japanese Cuisine.jpg" style="border:10px solid #FFE5E1"
+      width="400px" height = "320px">
+    </a>
+    
+    </div>
+
+    <div class="japan_desc">
+      <h3>Japanese Cuisine:</h3>
+      <p>Delicious dining options from Sake to Sushi</p>
+    </div>
+
+    <div class="dessert_pic">
+      <a id="desserts">
+      <img src="Desserts.jpg" style="border:10px solid #9CD4EA"
+      width="400px" height = "320px">
+      </a>
+    </div>
+
+    <div class="dessert_desc">
+      <h3>Desserts:</h3>
+      <p>From Italian Tiramisu to Indian Gulab Jamun</p>
+    </div>
+
+  </body>
+</html>
+<!--
+title
+nav bar
+  list? 
+  links to down in page
+  links to welcome
+Jpeg background
+  text over it
+  rest of site "floats" over it
+  button that does nothing  
+Nother Title
+Boxes
+Images
+borders
+descriptions
+Italy
+India
+Japan
+Dessert
+(no footer)
+
+    <div id="wrap">
+      <div id="left_col">
+        <h2>Column 1</h2>
+        <p>TODO picture here</p>
+      </div>
+      <div id="right_col">
+        <h4>Italy's finest:</h4>
+        <p>From our Lasagna to our Protein Penne, we have delicious options 
+          for every taste!
+        </p>
+        <p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p><p>AAHH</p>
+      </div>
+-->
